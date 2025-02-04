@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Filament\Resources\ZiswafTransactionResource\Pages;
+
+use App\Filament\Resources\ZiswafTransactionResource;
+use Filament\Actions;
+use Filament\Resources\Pages\ViewRecord;
+
+class ViewZiswafTransaction extends ViewRecord
+{
+    protected static string $resource = ZiswafTransactionResource::class;
+
+    protected function getHeaderActions(): array
+    {
+        return [
+            Actions\EditAction::make(),
+        ];
+    }
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "AxiataBold";
+    src: url("./fonts/AxiataBold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AxiataBook";
+    src: url("./fonts/AxiataBook.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AxiataBookItalic";
+    src: url("./fonts/AxiataBookItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AxiataMedium";
+    src: url("./fonts/AxiataMedium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}

@@ -45,7 +45,8 @@
                 </div>
 
                 <!-- Step Content -->
-                <form form wire:submit.prevent="submit">
+                {{-- <form wire:submit.prevent="submit"> --}}
+                <div>
                     @if($currentStep === 1)
                     <div class=" flex flex-col rounded-[20px] p-4 gap-5 bg-white border">
 
@@ -326,7 +327,7 @@
                             {{ $currentStep === 4 ? 'Submit' : 'Next' }}
                         </button>
                     </div>
-                </form>
+                </div>
             </div>
             <!-- Stepper -->
         </div>
